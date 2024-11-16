@@ -31,7 +31,7 @@ const Chats = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          `${import.meta.env.VITE_BACKEND_URL}/api/auth/user`,
+          `${import.https://mern-chat-app-main-server.onrender.com}/api/auth/user`,
           {
             method: "GET",
             credentials: "include",
