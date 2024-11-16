@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     async function getUser() {
       const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/api/auth/user`,
+        `${import.https://mern-chat-app-main-server.onrender.com}/api/auth/us`,
         {
           method: "GET",
           credentials: "include",
